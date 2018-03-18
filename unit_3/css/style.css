@@ -1,0 +1,32 @@
+body {text-align: center;
+		background: rgb(3,127,122);}
+
+h1 {color: rgb(25,34,255);
+	background-color: black;
+	font-size: 30px;
+	font-weight: italic;
+	}
+
+	
+
+.slogan{font-size: 20px;
+		text-transform: uppercase;
+		font-family: italic;}
+
+a {text-decoration: none;}
+
+img{ width: 20%; }
+
+header{ 
+			background-color: rgb(255,143,42);
+			padding: 400;								
+			text-decoration: underline;}							
+
+ul, li{list-style-type: none;
+		color: #FF8D00 ;}				
+
+hr{ font-color: black; }					
+
+footer{background-color: rgb(255,255,255);}
+
+.footer{color: rgb(25,34,255)}
