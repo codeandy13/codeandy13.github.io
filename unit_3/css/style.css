@@ -4,14 +4,22 @@ body {text-align: center;
 h1 {color: rgb(25,34,255);
 	background-color: black;
 	font-size: 30px;
+<<<<<<< HEAD
 	
+=======
+	font-weight: italic;
+>>>>>>> 18f1ef4ca2a7e444049acbc62579b83e3d86e051
 	}
 
 	
 
 .slogan{font-size: 20px;
 		text-transform: uppercase;
+<<<<<<< HEAD
 		font-style: italic;}
+=======
+		font-family: italic;}
+>>>>>>> 18f1ef4ca2a7e444049acbc62579b83e3d86e051
 
 a {text-decoration: none;}
 
