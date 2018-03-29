@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+
+nav { letter-spacing: 1px; 
+		word-spacing: 10px;
+		background-color:#E8C66A;
+		padding:20px
+		border: 1px black solid;}
+
+body {text-align: center;
+		background: rgb(3,127,122);}
+
+h1 {color: rgb(255,88,72);
+	font-size: 30px;
+	font-weight: italic;
+	padding: 30px;}
+
+h2 {color: rgb(255,88,72);
+	font-size: 40px;
+	font-family: 'permanent marker', cursive;}
+
+	
+
+#about,p{font-family:'nova mona', monospace;}
+
+.slogan{font-size: 20px;
+		text-transform: uppercase;
+
+		font-style: italic;
+		font-family: arial, sans-serif;}
+
+.information{text-decoration: underline;
+				word-spacing:10px;
+				border-bottom:2px
+				padding: 0,5px;
+				background-color:#E8C66A;}
+
+.offer{background-color:#FFC675;
+		padding: 20px;
+		border:1px black solid;
+		border-bottom:4px solid black;
+		display: inline-block;}
+
+
+
+section{background-color:#FFE2B8;
+		padding:20px;
+		border: 1px black solid;}
+
+article{background-color:#E89C6C;
+		padding: 20px;
+		border: 1px black solid;}
+
+
+		
+
+
+a {text-decoration: none;}
+
+img{ width: 20%; }
+
+header{ 
+			background-color: #FFED74;
+			padding: 20px;								
+			border: 1px black solid;
+			text-decoration: underline;}							
+
+ul, li{list-style-type: none;
+		color: #FF8D00 ;}				
+
+					
+
+footer{background-color: #FF957E;
+		padding: 20px;
+		border: 1px black solid;
+	}
+
+.footer{color: rgb(25,34,255)
+		}
