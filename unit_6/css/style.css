@@ -39,6 +39,27 @@ h2 {color: rgb(255,88,72);
 		font-style: italic;
 		font-family: arial, sans-serif;}
 
+
+
+.clearfix:after {visibility: hidden;
+					display:block;
+					content:" ";
+					font-size:0;
+					height:0;
+					clear:both;}
+
+.sneakers{width:500px;
+			margin:40px;
+			background-color:orange;
+			float:left;}
+
+.clothes{
+	width:500px;
+	margin:40px
+	background-color:orange;
+	float:left;}
+
+
 .information{text-decoration: underline;
 				word-spacing:10px;
 				border-bottom:2px
@@ -54,7 +75,7 @@ h2 {color: rgb(255,88,72);
 .offer p{border-bottom:4px solid black;}
 
 
-.clearfix:after {
+/*.clearfix:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -84,15 +105,13 @@ h2 {color: rgb(255,88,72);
     float:right;
     width:62%;
 }
-
+*/
 section{background-color:#FFE2B8;
 		padding:20px;
 		border: 1px black solid;
 		}
 
-article{background-color:#E89C6C;
-		padding: 20px;
-		border: 1px black solid;}
+
 
 
 		
