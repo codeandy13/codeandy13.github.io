@@ -1,38 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Nova+Mono');
-
-nav {  
+* {margin:0;padding:0;box-sizing:border-box;}
+nav {
 		margin:auto;
 		text-align:center;
-		word-spacing:20px;
-		background-color:#E8C66A;
-		padding:20px
-		border: 10px black solid;
 		}
 
-nav a {text-decoration: none;
+nav a {
+	text-decoration: none;
 	text-transform: uppercase;
 	display:inline-block;
-	}
-
+	padding: 1em;
+}
+.information a {
+}
 a:hover{background-color:#ffd1c3;}
 
-body {text-align: center;
-		background: rgb(3,127,122);}
+body {
+	color:#222;
+	font-family:'nova mona', monospace;
+	font-size:16px;
+	line-height:1.3;
+}
 
-h1 {color: rgb(255,88,72);
+h1 {
+	color: rgb(255,88,72);
 	font-size: 30px;
 	font-weight: italic;
-	padding: 30px;}
+	padding: 30px;
+}
 
-h2 {color: rgb(255,88,72);
+h2 {
+	color: rgb(255,88,72);
 	font-size: 40px;
-	font-family: 'permanent marker', cursive;}
-
-	
-
-#about,p{font-family:'nova mona', monospace;}
-
+	font-family: 'permanent marker', cursive;
+}
 .slogan{font-size: 20px;
 		text-transform: uppercase;
 
@@ -40,37 +42,26 @@ h2 {color: rgb(255,88,72);
 		font-family: arial, sans-serif;}
 
 
-
-.clearfix:after {visibility: hidden;
-					display:block;
-					content:" ";
-					font-size:0;
-					height:0;
-					clear:both;}
-
-.sneakers{width:500px;
-			margin:40px;
-			background-color:orange;
-			float:left;}
+.sneakers{
+			width: 33.33%;
+			float:left;
+			padding: 2em;
+			}
 
 .clothes{
-	width:500px;
-	margin:40px;
-	background-color:orange;
-	float:left;}
+	width: 50%;
+	padding: 2em;
+	float:left;
+	}
 
 
-.information{text-decoration: underline;
+.information{
+				/* text-decoration: underline; */
 				word-spacing:10px;
-				border-bottom:2px
+				border-bottom:2px solid;
 				padding: 0,5px;
-				background-color:#E8C66A;}
-
-.offer{background-color:#FFC675;
-		padding: 20px;
-		border:1px black solid;
-		
-		display: inline-block;}
+				background-color:#E8C66A;
+				}
 
 .offer p{border-bottom:4px solid black;}
 
@@ -83,60 +74,16 @@ h2 {color: rgb(255,88,72);
     clear: both;
     height: 0;
 }
+img{
+	width: 100%;
+	}
 
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-/*#left {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
-    float:left;
-    width:30%;
-}
-
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-    float:right;
-    width:62%;
-}*/
-
-section{background-color:#FFE2B8;
-		padding:20px;
-		border: 1px black solid;
-		}
-
-
-
-
-		
-
-
-
-
-img{ width: 20%; 
-	padding: 20px;}
-
-header{ 
-			background-color: #FFED74;
-			padding: 20px;								
-			border: 1px black solid;
-			text-decoration: underline;}							
 
 ul, li{list-style-type: none;
 		color: #FF8D00 ;}				
 
 				
 
-footer{background-color: #FF957E;
-		padding: 20px;
-		border: 1px black solid;
-	}
 
 .footer{color: rgb(25,34,255)
 		}
