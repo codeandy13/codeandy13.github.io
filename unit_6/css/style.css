@@ -1,41 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Nova+Mono');
-<<<<<<< HEAD
 
-* {margin:0;padding:0;box-sizing:border-box;}
 
-nav {  
-		
-		text-align:center;
-		background-color:#E8C66A;
-		border: 5px black solid;
-		}
 
-nav a {	text-decoration: none;
-		text-transform: uppercase;
-		display:inline-block;
-		padding:1em;
-		}
-
-a:hover{background-color:#ffd1c3;}
-
-body {	text-align: center;
-		background: rgb(3,127,122);}
-
-h1 {	color: rgb(255,88,72);
-		font-size: 30px;
-		font-weight: italic;
-		padding: 30px;}
-
-h2 {	color: rgb(255,88,72);
-		font-size: 40px;
-		font-family: 'permanent marker', cursive;}
-
-	
-
-#about,p{font-family:'nova mona', monospace;}
-
-=======
 * {margin:0;padding:0;box-sizing:border-box;}
 nav {
 		margin:auto;
@@ -48,9 +15,11 @@ nav a {
 	display:inline-block;
 	padding: 1em;
 }
-.information a {
+
 }
 a:hover{background-color:#ffd1c3;}
+
+header{text-align:center;}
 
 body {
 	color:#222;
@@ -67,23 +36,26 @@ h1 {
 }
 
 h2 {
+	text-align:center;
 	color: rgb(255,88,72);
 	font-size: 40px;
 	font-family: 'permanent marker', cursive;
 }
-.slogan{font-size: 20px;
-		text-transform: uppercase;
->>>>>>> c174d57795fcd0c6d914fabd5c1f1ec40579549c
 
+
+
+
+#intro{background-color:black;}
 
 .slogan{font-size: 30px;
 		text-transform: uppercase;
+		text-align:center;
 		color:blue;
 		font-style: italic;
-		font-family: arial, sans-serif;}
+		font-family: arial, sans-serif;
+		}
 
 
-<<<<<<< HEAD
 
 .clearfix:after {visibility: hidden;
 					display:block;
@@ -109,7 +81,8 @@ h2 {
 			 	padding: 1em;
 			 	}
 
-.offer{background-color:#FFC675;
+.offer{	text-align:center;
+		background-color:#FFC675;
 		padding: 20px;
 		border:1px black solid;
 		display: inline-block;}
@@ -131,57 +104,23 @@ header{
 			padding: 20px;								
 			border: 1px black solid;
 			text-decoration: underline;}							
-=======
-.sneakers{
-			width: 33.33%;
-			float:left;
-			padding: 2em;
-			}
-
-.clothes{
-	width: 50%;
-	padding: 2em;
-	float:left;
-	}
 
 
-.information{
-				/* text-decoration: underline; */
-				word-spacing:10px;
-				border-bottom:2px solid;
-				padding: 0,5px;
-				background-color:#E8C66A;
-				}
-
-.offer p{border-bottom:4px solid black;}
-
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-img{
-	width: 100%;
-	}
-
->>>>>>> c174d57795fcd0c6d914fabd5c1f1ec40579549c
 
 ul, li{list-style-type: none;
 		color: #FF8D00 ;}				
 
 				
 
-<<<<<<< HEAD
-footer{ background-color: #FF957E;
+
+footer{ 
+		background-color: #FF957E;
 		padding: 1em;
 		border: 1px black solid;
 	}
-=======
->>>>>>> c174d57795fcd0c6d914fabd5c1f1ec40579549c
 
-.footer{color: rgb(25,34,255)
+
+.footer {
+		text-align:center;
+		color: rgb(25,34,255)
 		}
