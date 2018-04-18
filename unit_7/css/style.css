@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Nova+Mono');
-@media only screen and (max-width:574px)
-	{div{img:width:50%;}}
+@media only screen and (max-width:400px)
+	{div{img:width:50%;
+		float:none;
+		width:auto;
+		padding: 1em;}}
 	
-	{div{float:none;
-			  width:auto;
-			  padding: 1em;
-			  }}
-
-
 
 * {margin:0;padding:0;box-sizing:border-box;}
 nav {
