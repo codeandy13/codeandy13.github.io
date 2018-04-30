@@ -20,7 +20,10 @@ nav a {
 
 nav a:hover{
 			background-color:#ffd1c3;
+
 }
+
+
 
 
 
@@ -51,6 +54,7 @@ h2 {
 	color: rgb(255,88,72);
 	font-size: 40px;
 	font-family: 'permanent marker', cursive;
+	padding:20px;
 }
 
 
@@ -59,6 +63,9 @@ h2 {
 #intro{
 	background-color:black;
 }
+
+
+#mobile{display:none;}
 
 .slogan{font-size: 30px;
 		text-transform: uppercase;
@@ -70,7 +77,8 @@ h2 {
 
 
 
-.clearfix:after {visibility: hidden;
+.clearfix:after {
+					visibility: hidden;
 					display:block;
 					content:" ";
 					font-size:0;
@@ -85,8 +93,9 @@ h2 {
 }
 
 .clothes{	
-		 width:50%;
+		 width:40%;
 		 padding:3em;
+		 margin:auto;
 	     text-align:center;
 		 float:left;
 }
@@ -101,7 +110,7 @@ h2 {
 		background-color:#FFC675;
 		padding: 20px;
 		border:1px black solid;
-		display: inline-block;
+		display:block;
 		float:left;
 		clear:both;
 }
@@ -125,7 +134,15 @@ ul, li{list-style-type: none;
 		color: #FF8D00 ;
 }				
 
-				
+aside{
+		text-align:left;
+		background-color:#FFC675;
+		padding: 20px;
+		border:1px black solid;
+		display:block;
+}			
+
+
 
 
 footer p{text-align:center; 
@@ -140,16 +157,32 @@ footer p{text-align:center;
 		clear:both;
 }
 
-@media only screen and (max-width:400px) {
-	
 
-	.sneakers {
-		float:none;
-		width: 100%;
+@media only screen and (max-width:1016px)
+{
+	nav a {padding:1em;}
+	.information a {padding: .5em;}
+
+@media only screen and (max-width:580px)
+{
+	#mobile{display:block;}
+
+	nav a{display:none;}
+
+	nav: hover a {display:block;}
+
+	.sneakers {	width: 100%;
+				padding:.05em;
 	}
+
+
 	.clothes{
 		float:none;
 		width:100%;
 	}
+
 }
+
+
+
 	
