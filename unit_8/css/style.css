@@ -4,6 +4,9 @@
 
 * {margin:0;padding:0;box-sizing:border-box;}
 
+
+
+
 nav {
 		text-align:center;
 		background-color:#d3d3d3;
@@ -29,7 +32,7 @@ nav a:hover{
 
 header{ 	
 			text-align:center;
-			background-color: #FFf;								
+			background-color: #098fff;								
 			border: 1px black solid;
 }							
 
@@ -73,8 +76,14 @@ h3{
 
 #mobile{display:none;}
 
-#trends h2{color:#7f0000;}
-			{margin:auto;}
+
+#trends h2{color:#7f0000;
+			margin:auto;}
+
+#trends>div{	width:700px;
+				margin:auto;
+
+}
 
 .slogan{font-size: 30px;
 		text-transform: uppercase;
@@ -103,16 +112,17 @@ h3{
 .sneakers h3{color:black;}
 
 .clothes{	
-		 width:30%;
+		 width:50%;
 		 padding:2em;
 		 margin:auto;
 	     text-align:center;
 		 float:left;
+
 }
 
 .clothes h3{color:black;
 }
-
+	
 
 .information a{	text-decoration: none;
 				border-bottom:2px;
@@ -139,8 +149,9 @@ section{background-color:gray;
 }
 
 
+
 img{ width: 100%; 
-	padding: 20px;}
+	padding: 18px;}
 
 
 
@@ -158,7 +169,7 @@ aside{
 		float:left;
 }
 
-/*aside nav a {color:#FF8D00;}			*/
+aside a {color:#FF8D00;}			
 
 
 
@@ -201,7 +212,7 @@ footer p{text-align:center;
 	nav a{display:none;
 	}
 
-	nav: hover a {display:block;
+	nav:hover a {display:block;
 	}
 
 	.sneakers {	width: 100%;
@@ -212,6 +223,7 @@ footer p{text-align:center;
 	.clothes{
 		float:none;
 		width:100%;
+
 	}
 
 	
