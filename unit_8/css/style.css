@@ -6,7 +6,7 @@
 
 nav {
 		text-align:center;
-		background-color:#ff8568;
+		background-color:#d3d3d3;
 
 }
 
@@ -29,7 +29,7 @@ nav a:hover{
 
 header{ 	
 			text-align:center;
-			background-color: #FFED74;								
+			background-color: #FFf;								
 			border: 1px black solid;
 }							
 
@@ -43,7 +43,7 @@ body {
 }
 
 h1 {
-	color: rgb(255,88,72);
+	color: #11f1ff;
 	font-size: 50px;
 	font-weight: italic;
 	padding: 30px;
@@ -57,6 +57,9 @@ h2 {
 	padding:20px;
 }
 
+h3{
+	color:#FF8D00;
+}
 
 
 
@@ -64,8 +67,14 @@ h2 {
 	background-color:black;
 }
 
+#about  h2 {color: #7f0000;}
+
+#dealsoftheweek h2{color:#7f0000;}
 
 #mobile{display:none;}
+
+#trends h2{color:#7f0000;}
+			{margin:auto;}
 
 .slogan{font-size: 30px;
 		text-transform: uppercase;
@@ -91,13 +100,17 @@ h2 {
 		  text-align:center;
 		  float:left;
 }
+.sneakers h3{color:black;}
 
 .clothes{	
-		 width:40%;
-		 padding:3em;
+		 width:30%;
+		 padding:2em;
 		 margin:auto;
 	     text-align:center;
 		 float:left;
+}
+
+.clothes h3{color:black;
 }
 
 
@@ -107,22 +120,23 @@ h2 {
 }
 
 .offer {text-align:center;
-		background-color:#FFC675;
+		background-color:black;
 		padding: 20px;
-		border:1px black solid;
 		display:block;
 		float:left;
 		clear:both;
+		
 }
 
+.extra{background:black;}
 
 
 
 
-section{background-color:#FFE2B8;
+section{background-color:gray;
 		padding:20px;
-		border: 1px black solid;
-		}
+		
+}
 
 
 img{ width: 100%; 
@@ -134,20 +148,24 @@ ul, li{list-style-type: none;
 		color: #FF8D00 ;
 }				
 
+
+label{color:#FF8D00;}
+
 aside{
 		text-align:left;
-		background-color:#FFC675;
 		padding: 20px;
-		border:1px black solid;
 		display:block;
-}			
+		float:left;
+}
+
+/*aside nav a {color:#FF8D00;}			*/
 
 
 
 
 footer p{text-align:center; 
 		 background-color: #FF957E;
-		 padding: 1em;
+		 padding: .5em;
 }
 
 
@@ -162,14 +180,29 @@ footer p{text-align:center;
 {
 	nav a {padding:1em;}
 	.information a {padding: .5em;}
+}
+
+@media only screen and (max-width:800px)
+{	.clothes {	width: 100%
+				padding: 2em;}
+
+	aside {
+				float:none;
+				text-align:center;			
+			}
+
+}
 
 @media only screen and (max-width:580px)
 {
-	#mobile{display:block;}
+	#mobile{display:block;
+	}
 
-	nav a{display:none;}
+	nav a{display:none;
+	}
 
-	nav: hover a {display:block;}
+	nav: hover a {display:block;
+	}
 
 	.sneakers {	width: 100%;
 				padding:.05em;
@@ -180,6 +213,9 @@ footer p{text-align:center;
 		float:none;
 		width:100%;
 	}
+
+	
+	
 
 }
 
